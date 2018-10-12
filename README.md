@@ -76,6 +76,7 @@ To finalize enter in the terminal:
 	sudo service apache2 reload
 
 The following commands:
+	
 	-removes the default config from Apache's site serving mechanism.
 	-adds the config you just created for your Flask app, to Apache's site serving mechanism.
 	-reloads Apache to commit the changes.
