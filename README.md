@@ -77,9 +77,9 @@ To finalize enter in the terminal:
 
 The following commands:
 	
-	-removes the default config from Apache's site serving mechanism.
-	-adds the config you just created for your Flask app, to Apache's site serving mechanism.
-	-reloads Apache to commit the changes.
+* removes the default config from Apache's site serving mechanism.
+* adds the config you just created for your Flask app, to Apache's site serving mechanism.
+* reloads Apache to commit the changes.
 
 And well-a you're done. Now to actually serve your Flask app over LAN, navigate to the project's folder, and type the command: 
 
