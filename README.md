@@ -1,6 +1,6 @@
 # apache-LAN-serve-flask
 
-So I found a way to host a Flask application over LAN. Useful for testing on mobile devices or whatever use-case demands remote access to your Flask application for testing purposes. You basically need Apache2, WSGI, and gUnicorn to do this. 
+Here's a way to host a Flask application over LAN. Useful for testing on mobile devices or whatever use-case demands remote access to your Flask application for testing purposes. You basically need Apache2, WSGI, and gUnicorn to do this. (Mac & Linux only, srry Windows)
 
 ### 1. First install Apache2, WSGI and gUnicorn by running the commands: 
 	
