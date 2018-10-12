@@ -33,7 +33,7 @@ You can put that same IP address in your mobile device's browser, and it'll also
 
 -In the code above, the second line uses the PATH system to tell Apache where to look for your app via WSGI. (Replace the path in single-quotes with the absolute path to your project's folder) 
 
--The third line imports the app variable declared in app.py, where: app = Flask(__name__). This way Apache knows just where to look to host your app over LAN.
+-The third line imports the app variable declared in app.py, where: ```app = Flask(__name__)```. This way Apache knows just where to look to host your app over LAN.
 
 -To wrap things up, you need to create an Apache config file that points to the '.wsgi' file previously created.
 
