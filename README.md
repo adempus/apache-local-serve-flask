@@ -81,7 +81,8 @@ The following commands:
 * adds the config you just created for your Flask app, to Apache's site serving mechanism.
 * reloads Apache to commit the changes.
 
-And well-a you're done. Now to actually serve your Flask app over LAN, navigate to the project's folder, and type the command: 
+### Done!
+And well-a. Now to actually serve your Flask app over LAN, navigate to the project's folder, and type the command: 
 
 	sudo gunicorn -w 2 -b 0.0.0.0:5000 app:projectName
 
