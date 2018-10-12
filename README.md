@@ -4,8 +4,8 @@ So I found a way to host a Flask application over LAN. Useful for testing on mob
 
 ## 1. First install Apache2 and WSGI by running the commands: 
 	
-	```sudo apt-get install apache2
-	sudo apt-get install libapache2-mod-wsgi```
+	`sudo apt-get install apache2
+	sudo apt-get install libapache2-mod-wsgi`
 
 Apache is the web server that listens for remote web requests to your Flask app. WSGI is basically a middleware that allows responses to be served from Flask on your local machine through Apache, remotely to another machine on the same network (LAN).
 
