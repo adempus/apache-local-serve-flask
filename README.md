@@ -54,7 +54,7 @@ This is the folder where config files are stored to tell apache what page to loa
 - This creates the config file mentioned earlier to tell apache what site to load. Type the following in the editor:
 
 	  <VirtualHost *>
-        	ServerName mindbeam.com
+        	ServerName doesntMatterForNow.com
 
         	WSGIScriptAlias / /absolutePath/toYour/FlaskProjectFolder/projectName.wsgi
         	WSGIDaemonProcess app
