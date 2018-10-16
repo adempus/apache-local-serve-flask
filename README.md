@@ -58,7 +58,7 @@ This is the folder where config files are stored to tell apache what page to loa
 
         	WSGIScriptAlias / /absolutePath/toYour/FlaskProjectFolder/projectName.wsgi
         	WSGIDaemonProcess app
-        	<Directroy /home/adempus/PycharmProjects/project_mindbeam>
+        	<Directroy /absolutePath/toYour/FlaskProjectFolder/>
                 	WSGIProcessGroup projectName
                 	WSGIApplicationGroup %{GLOBAL}
                 	Order deny,allow
